@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CamaraRaycastHit
     - SVR.SteamVRTeleportManager
     SVR.dll:
     - SVR.VRHandController
@@ -89,8 +90,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -196,6 +195,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16062}
     - Class: 114
       Script: {instanceID: 16070}
+    - Class: 114
+      Script: {instanceID: 22908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1569,6 +1570,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 41232ada8c37dce3b4870716b4a1008f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CamaraRaycastHit
   platform: 13
   scenePathNames:
   - Assets/Scenes/Start.unity
