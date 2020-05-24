@@ -188,6 +188,7 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
     <Compile Include="Assets\Scripts\IconController.cs" />
+    <Compile Include="Assets\Scripts\TreasureEnable.cs" />
     <None Include="Assets\Models\Skybox\Shader.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
