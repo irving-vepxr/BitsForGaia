@@ -21,7 +21,6 @@ ScriptsOnlyBuild:
     - GvrTrackedController
     - IconController
     - InstantPreviewHelper
-    - TreasureEnable
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -79,14 +78,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
-    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/BitsGaiaStart.unity:
+    Assets/Scenes/BitsGaiaRural.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -109,17 +107,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 74
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -174,8 +164,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13586}
     - Class: 114
-      Script: {instanceID: 13686}
-    - Class: 114
       Script: {instanceID: 13730}
     - Class: 114
       Script: {instanceID: 13964}
@@ -185,8 +173,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14100}
     - Class: 114
       Script: {instanceID: 14128}
-    - Class: 114
-      Script: {instanceID: 14138}
     - Class: 114
       Script: {instanceID: 14290}
     - Class: 114
@@ -274,206 +260,6 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/BitsGaiaUrban.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11522}
-    - Class: 114
-      Script: {instanceID: 11586}
-    - Class: 114
-      Script: {instanceID: 11964}
-    - Class: 114
-      Script: {instanceID: 12062}
-    - Class: 114
-      Script: {instanceID: 12326}
-    - Class: 114
-      Script: {instanceID: 12444}
-    - Class: 114
-      Script: {instanceID: 12480}
-    - Class: 114
-      Script: {instanceID: 12638}
-    - Class: 114
-      Script: {instanceID: 13026}
-    - Class: 114
-      Script: {instanceID: 13964}
-    - Class: 114
-      Script: {instanceID: 14032}
-    - Class: 114
-      Script: {instanceID: 14138}
-    - Class: 114
-      Script: {instanceID: 14350}
-    - Class: 114
-      Script: {instanceID: 14630}
-    - Class: 114
-      Script: {instanceID: 14846}
-    - Class: 114
-      Script: {instanceID: 14850}
-    - Class: 114
-      Script: {instanceID: 15004}
-    - Class: 114
-      Script: {instanceID: 15140}
-    - Class: 114
-      Script: {instanceID: 15230}
-    - Class: 114
-      Script: {instanceID: 15332}
-    - Class: 114
-      Script: {instanceID: 15372}
-    - Class: 114
-      Script: {instanceID: 15900}
-    - Class: 114
-      Script: {instanceID: 16054}
-    - Class: 114
-      Script: {instanceID: 16112}
-    - Class: 114
-      Script: {instanceID: 16234}
-    - Class: 114
-      Script: {instanceID: 16256}
-    - Class: 114
-      Script: {instanceID: 16282}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/BitsGaiaUrbanH.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11522}
-    - Class: 114
-      Script: {instanceID: 11586}
-    - Class: 114
-      Script: {instanceID: 11964}
-    - Class: 114
-      Script: {instanceID: 12062}
-    - Class: 114
-      Script: {instanceID: 12326}
-    - Class: 114
-      Script: {instanceID: 12444}
-    - Class: 114
-      Script: {instanceID: 12480}
-    - Class: 114
-      Script: {instanceID: 12638}
-    - Class: 114
-      Script: {instanceID: 13026}
-    - Class: 114
-      Script: {instanceID: 13964}
-    - Class: 114
-      Script: {instanceID: 14032}
-    - Class: 114
-      Script: {instanceID: 14350}
-    - Class: 114
-      Script: {instanceID: 14630}
-    - Class: 114
-      Script: {instanceID: 14846}
-    - Class: 114
-      Script: {instanceID: 14850}
-    - Class: 114
-      Script: {instanceID: 15004}
-    - Class: 114
-      Script: {instanceID: 15140}
-    - Class: 114
-      Script: {instanceID: 15332}
-    - Class: 114
-      Script: {instanceID: 15372}
-    - Class: 114
-      Script: {instanceID: 15900}
-    - Class: 114
-      Script: {instanceID: 16054}
-    - Class: 114
-      Script: {instanceID: 16112}
-    - Class: 114
-      Script: {instanceID: 16234}
-    - Class: 114
-      Script: {instanceID: 16256}
-    - Class: 114
-      Script: {instanceID: 16282}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -2044,7 +1830,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/BitsGaiaStart.unity
-  - Assets/Scenes/BitsGaiaUrban.unity
-  - Assets/Scenes/BitsGaiaUrbanH.unity
+  - Assets/Scenes/BitsGaiaRural.unity
   playerPath: C:/Users/irvin/Documents/BitsForGai/BitsForGaia/Build/vrtest.apk
