@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class AparatController : MonoBehaviour
 {
+    public GameObject On;
+    public PlayerScore player;
     Vector3 inactiveSize;
 
     /// <summary>The material to use when this object is active (gazed at).</summary>
@@ -15,7 +17,6 @@ public class AparatController : MonoBehaviour
     private Vector3 startingPosition;
     private Vector3 mySize;
     bool load = false;
-    public string nameScene;
 
     /// <summary>Sets this instance's GazedAt state.</summary>
     /// <param name="gazedAt">
@@ -28,13 +29,14 @@ public class AparatController : MonoBehaviour
         {
             mySize = gazedAt ? activeSize : inactiveSize;
             this.gameObject.transform.localScale = mySize;
-            StartCoroutine(LoadScene());
+            StartCoroutine(AparatOn());
             return;
         }
     }
 
+    public int emisiones,comodidad,empatia;
     bool inCorrutine = false;
-    IEnumerator LoadScene()
+    IEnumerator AparatOn()
     {
         if (!inCorrutine)
         {
@@ -43,12 +45,16 @@ public class AparatController : MonoBehaviour
             while (load && i > 0)
             {
                 yield return new WaitForSeconds(1f);
-                Debug.LogError("i" + i);
+                Debug.Log("i" + i);
                 i--;
             }
             if (load)
             {
-                SceneManager.LoadScene(nameScene);
+                player.emisiones += emisiones;
+                player.comodidad += comodidad;
+                player.empatia += empatia;
+                On.SetActive(true);
+                this.gameObject.SetActive(false);
             }
             else
             {

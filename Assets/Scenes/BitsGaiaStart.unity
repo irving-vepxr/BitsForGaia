@@ -855,6 +855,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6903060487811763720, guid: 1096b93b079a7a643a8d33a73e97af14,
+        type: 3}
+      propertyPath: nameScene
+      value: BitsGaiaRuralStart
+      objectReference: {fileID: 0}
     - target: {fileID: 6903060489355961852, guid: 1096b93b079a7a643a8d33a73e97af14,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -968,7 +973,7 @@ PrefabInstance:
     - target: {fileID: 6903060489600731669, guid: 1096b93b079a7a643a8d33a73e97af14,
         type: 3}
       propertyPath: nameScene
-      value: BitsGaiaUrbanH
+      value: BitsGaiaRuralStart
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1096b93b079a7a643a8d33a73e97af14, type: 3}

@@ -189,6 +189,7 @@
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
     <Compile Include="Assets\Scripts\AparatController.cs" />
     <Compile Include="Assets\Scripts\IconController.cs" />
+    <Compile Include="Assets\Scripts\PlayerScore.cs" />
     <Compile Include="Assets\Scripts\TreasureEnable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

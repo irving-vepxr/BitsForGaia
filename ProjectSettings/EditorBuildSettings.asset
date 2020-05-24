@@ -5,16 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/BitsGaiaStart.unity
     guid: 92755825889f7044680c3943665d32ba
-  - enabled: 0
-    path: Assets/Scenes/BitsGaiaUrban.unity
-    guid: 5c2940f3a0c79ce4aa714eb521e6b7d4
   - enabled: 1
-    path: Assets/Scenes/BitsGaiaRural.unity
+    path: Assets/Scenes/BitsGaiaRuralFinal.unity
     guid: 206f75a59d0be3047a32e5a9cf018bd5
   - enabled: 0
-    path: Assets/Scenes/BitsGaiaUrbanH.unity
+    path: Assets/Scenes/BitsGaiaUrbanStart.unity
     guid: 071f0c7883a4be241816b7b8e0821014
+  - enabled: 0
+    path: Assets/Scenes/BitsGaiaUrbanFinal.unity
+    guid: 1d51961014e961c479d28b38534041cd
+  - enabled: 1
+    path: Assets/Scenes/BitsGaiaRuralStart.unity
+    guid: 24a375362f511c441a87df4c51fb47d2
   m_configObjects: {}
