@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Collider))]
 public class IconController : MonoBehaviour
@@ -11,6 +13,8 @@ public class IconController : MonoBehaviour
 
     private Vector3 startingPosition;
     private Vector3 mySize;
+    bool load = false;
+    public string nameScene;
 
     /// <summary>Sets this instance's GazedAt state.</summary>
     /// <param name="gazedAt">
@@ -18,11 +22,37 @@ public class IconController : MonoBehaviour
     /// </param>
     public void SetGazedAt(bool gazedAt)
     {
+        load = gazedAt;
         if (inactiveSize != null && activeSize != null)
         {
             mySize = gazedAt ? activeSize : inactiveSize;
             this.gameObject.transform.localScale = mySize;
+            StartCoroutine(LoadScene());
             return;
+        }
+    }
+
+    bool inCorrutine = false;
+    IEnumerator LoadScene()
+    {
+        if (!inCorrutine)
+        {
+            inCorrutine = true;
+            int i = 3;
+            while (load && i > 0)
+            {
+                yield return new WaitForSeconds(1f);
+                Debug.LogError("i"+i);
+                i--;
+            }
+            if (load)
+            {
+                SceneManager.LoadScene(nameScene);
+            }
+            else
+            {
+                inCorrutine = false;
+            }
         }
     }
 

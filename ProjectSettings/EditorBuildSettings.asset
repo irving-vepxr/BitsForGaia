@@ -5,15 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/SVR/Demos/Scenes/SVR_Scene.unity
-    guid: ada1308a4eca49a4f9745f67997d7117
-  - enabled: 0
-    path: Assets/Scenes/Start.unity
-    guid: 6cc82cc2a5db8a845950e931d8d42525
-  - enabled: 0
-    path: Assets/GoogleVR/Demos/Scenes/HelloVR.unity
-    guid: bb36d2905dc634f1c9eecb35beecaca8
+  - enabled: 1
+    path: Assets/Scenes/BitsGaiaStart.unity
+    guid: 92755825889f7044680c3943665d32ba
+  - enabled: 1
+    path: Assets/Scenes/BitsGaiaUrban.unity
+    guid: 5c2940f3a0c79ce4aa714eb521e6b7d4
   - enabled: 1
     path: Assets/Scenes/BitsGaiaRural.unity
     guid: 206f75a59d0be3047a32e5a9cf018bd5

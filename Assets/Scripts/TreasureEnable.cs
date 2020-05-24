@@ -13,9 +13,10 @@ public class TreasureEnable : MonoBehaviour
         StartCoroutine(WakeUp());
     }
 
+    public float timeEnable = 47.1F;
     IEnumerator WakeUp()
     {
-        yield return new WaitForSeconds(47.1f);
+        yield return new WaitForSeconds(timeEnable);
         animation.enabled = false;
         enableObject.active = true;
     }
