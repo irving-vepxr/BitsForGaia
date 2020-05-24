@@ -1,14 +1,26 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - SVR.SteamVRTeleportManager
-    SVR.dll:
-    - SVR.VRHandController
-    - SVR.VRHandControllerInput
-    - SVR.VRTeleportArea
-    - SVR.VRTeleportManager
-    - SVR.VRTeleportPointer
-    - SVR.VRUIInteraction
+    - GoogleVR.Demos.DemoInputManager
+    - GoogleVR.Demos.DemoSceneManager
+    - GoogleVR.HelloVR.HeadsetDemoManager
+    - GoogleVR.HelloVR.HelloVRManager
+    - GoogleVR.HelloVR.ObjectController
+    - Gvr.Internal.InstantPreview
+    - GvrArmModel
+    - GvrControllerInput
+    - GvrControllerReticleVisual
+    - GvrControllerTooltipsSimple
+    - GvrControllerVisual
+    - GvrEditorEmulator
+    - GvrHeadset
+    - GvrLaserPointer
+    - GvrLaserVisual
+    - GvrPointerInputModule
+    - GvrPointerPhysicsRaycaster
+    - GvrReticlePointer
+    - GvrTrackedController
+    - InstantPreviewHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -51,7 +63,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -60,7 +72,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
-    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
@@ -69,7 +80,7 @@ ScriptsOnlyBuild:
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
-    Assets/Scenes/Start.unity:
+    Assets/Scenes/BitsGaiaStart.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -88,123 +99,145 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11448}
     - Class: 114
-      Script: {instanceID: 11586}
+      Script: {instanceID: 11588}
     - Class: 114
-      Script: {instanceID: 11718}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 11746}
+      Script: {instanceID: 11748}
     - Class: 114
-      Script: {instanceID: 11860}
+      Script: {instanceID: 11862}
     - Class: 114
-      Script: {instanceID: 11866}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11952}
+      Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 12004}
+      Script: {instanceID: 12006}
     - Class: 114
-      Script: {instanceID: 12174}
+      Script: {instanceID: 12176}
     - Class: 114
-      Script: {instanceID: 12212}
+      Script: {instanceID: 12214}
     - Class: 114
-      Script: {instanceID: 12634}
+      Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 12714}
+      Script: {instanceID: 12716}
     - Class: 114
-      Script: {instanceID: 12864}
+      Script: {instanceID: 12866}
     - Class: 114
-      Script: {instanceID: 12992}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13266}
+      Script: {instanceID: 13268}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 13320}
     - Class: 114
-      Script: {instanceID: 13392}
+      Script: {instanceID: 13394}
     - Class: 114
-      Script: {instanceID: 13520}
+      Script: {instanceID: 13522}
     - Class: 114
-      Script: {instanceID: 13862}
+      Script: {instanceID: 13864}
     - Class: 114
-      Script: {instanceID: 13890}
+      Script: {instanceID: 13892}
     - Class: 114
-      Script: {instanceID: 13900}
+      Script: {instanceID: 14088}
     - Class: 114
-      Script: {instanceID: 13962}
+      Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 13964}
+      Script: {instanceID: 14346}
     - Class: 114
-      Script: {instanceID: 13970}
+      Script: {instanceID: 14368}
     - Class: 114
-      Script: {instanceID: 13972}
+      Script: {instanceID: 14524}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 14560}
     - Class: 114
-      Script: {instanceID: 13976}
+      Script: {instanceID: 14568}
     - Class: 114
-      Script: {instanceID: 14086}
+      Script: {instanceID: 14938}
     - Class: 114
-      Script: {instanceID: 14270}
+      Script: {instanceID: 14954}
     - Class: 114
-      Script: {instanceID: 14344}
+      Script: {instanceID: 15030}
     - Class: 114
-      Script: {instanceID: 14366}
+      Script: {instanceID: 15312}
     - Class: 114
-      Script: {instanceID: 14522}
+      Script: {instanceID: 15550}
     - Class: 114
-      Script: {instanceID: 14558}
+      Script: {instanceID: 15610}
     - Class: 114
-      Script: {instanceID: 14566}
-    - Class: 114
-      Script: {instanceID: 14686}
-    - Class: 114
-      Script: {instanceID: 14936}
-    - Class: 114
-      Script: {instanceID: 14952}
-    - Class: 114
-      Script: {instanceID: 15028}
-    - Class: 114
-      Script: {instanceID: 15310}
-    - Class: 114
-      Script: {instanceID: 15548}
-    - Class: 114
-      Script: {instanceID: 15608}
-    - Class: 114
-      Script: {instanceID: 15856}
+      Script: {instanceID: 15796}
     - Class: 114
       Script: {instanceID: 15858}
     - Class: 114
-      Script: {instanceID: 15894}
+      Script: {instanceID: 15860}
     - Class: 114
-      Script: {instanceID: 15922}
+      Script: {instanceID: 15924}
     - Class: 114
-      Script: {instanceID: 15926}
+      Script: {instanceID: 15928}
     - Class: 114
-      Script: {instanceID: 16062}
+      Script: {instanceID: 16064}
     - Class: 114
-      Script: {instanceID: 16070}
+      Script: {instanceID: 16072}
+    - Class: 114
+      Script: {instanceID: 18638}
+    - Class: 114
+      Script: {instanceID: 18672}
+    - Class: 114
+      Script: {instanceID: 18676}
+    - Class: 114
+      Script: {instanceID: 18682}
+    - Class: 114
+      Script: {instanceID: 18698}
+    - Class: 114
+      Script: {instanceID: 18758}
+    - Class: 114
+      Script: {instanceID: 18760}
+    - Class: 114
+      Script: {instanceID: 18776}
+    - Class: 114
+      Script: {instanceID: 18782}
+    - Class: 114
+      Script: {instanceID: 18788}
+    - Class: 114
+      Script: {instanceID: 18800}
+    - Class: 114
+      Script: {instanceID: 18804}
+    - Class: 114
+      Script: {instanceID: 18816}
+    - Class: 114
+      Script: {instanceID: 18826}
+    - Class: 114
+      Script: {instanceID: 18830}
+    - Class: 114
+      Script: {instanceID: 18834}
+    - Class: 114
+      Script: {instanceID: 18874}
+    - Class: 114
+      Script: {instanceID: 18884}
+    - Class: 114
+      Script: {instanceID: 18888}
+    - Class: 114
+      Script: {instanceID: 18892}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 124
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -431,18 +464,6 @@ ScriptsOnlyBuild:
     className: NetworkTransform
   - hash:
       serializedVersion: 2
-      Hash: 1518b45b9938ac3b406ddd4338c08d25
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: NetworkClient
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: PhotonUnityNetworking_Menu
-  - hash:
-      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -575,12 +596,6 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 3c17c83c6b80bb62d43c1189bd54fe95
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: NetworkRoom
-  - hash:
-      serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
     assemblyName: UnityEngine.SpatialTracking.dll
     namespaceName: UnityEngine.SpatialTracking
@@ -651,12 +666,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerToggle
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: SteamVR_Menu
   - hash:
       serializedVersion: 2
       Hash: dbeab19c836bd50c0a0e371615445b64
@@ -773,12 +782,6 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: c487a44610a60a8c43cf98c38b935b43
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: NetworkManager
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.Monetization.dll
     namespaceName: UnityEngine.Monetization
@@ -833,130 +836,10 @@ ScriptsOnlyBuild:
     className: ColorLookup
   - hash:
       serializedVersion: 2
-      Hash: dc69e8d3e097b0bd9e96c6f114eb1ff2
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: ActivateGameObjectEvent
-  - hash:
-      serializedVersion: 2
-      Hash: 83ed7b15b12a4559422229417df8bcc5
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: HideGameObjectEvent
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: HideHandController
-  - hash:
-      serializedVersion: 2
-      Hash: 9b515d4816638f2a5958115a1019d494
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: LoadSceneEvent
-  - hash:
-      serializedVersion: 2
-      Hash: 0d6ee5e59ac0390d4185a50ef1f33f52
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: PlayAnimationEvent
-  - hash:
-      serializedVersion: 2
-      Hash: 9c0a1e9241a41dfd3172ad8890f9bc1d
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: PlayAudioEvent
-  - hash:
-      serializedVersion: 2
-      Hash: 369c301817c19dd6fe0d5ed9e9d7cfe2
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: PlayParticleEvent
-  - hash:
-      serializedVersion: 2
-      Hash: b7fb6705a6f6fdbc73758925afb0f32f
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: SwapPositionEvent
-  - hash:
-      serializedVersion: 2
-      Hash: 470b69cf0c1b501401b080c5ace78106
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: TeleportGameObjectEvent
-  - hash:
-      serializedVersion: 2
-      Hash: f3611933be6a6878356e00fee91b78ad
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: TransformGameObjectEvent
-  - hash:
-      serializedVersion: 2
-      Hash: c08b1866da4d2b89bf41a9d707bca110
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRHandController
-  - hash:
-      serializedVersion: 2
-      Hash: 356f19c1196aff9f0b40c25b8de823be
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRHandControllerInput
-  - hash:
-      serializedVersion: 2
-      Hash: b98a2afaab164e9cce16d255a31d2060
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRInteraction
-  - hash:
-      serializedVersion: 2
-      Hash: c6d0ad352ab48104a3f656389c851f7b
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRPlayerLocomotion
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRTeleportArea
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRTeleportManager
-  - hash:
-      serializedVersion: 2
-      Hash: bbfd324a09e6bb58f217ad4a53b41de3
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRTeleportPointer
-  - hash:
-      serializedVersion: 2
-      Hash: 8a10d1fc6029b3f51d0abc87582fa9fd
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRUIInteraction
-  - hash:
-      serializedVersion: 2
-      Hash: a7089f9264d52603b4e6e5c1fd3d2696
-    assemblyName: SVR.dll
-    namespaceName: SVR
-    className: VRVelocityEstimator
-  - hash:
-      serializedVersion: 2
       Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerWidget
-  - hash:
-      serializedVersion: 2
-      Hash: 026e3747826c0e23bd197e565a77bf5f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: NetworkObject
   - hash:
       serializedVersion: 2
       Hash: f050e4ebd311386367bb1906f9218b01
@@ -975,12 +858,6 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkStartPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RandomColor
   - hash:
       serializedVersion: 2
       Hash: 67a99c72bf51722a004979b57db87178
@@ -1049,12 +926,6 @@ ScriptsOnlyBuild:
     className: NetworkMigrationManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: InteractableCustom
-  - hash:
-      serializedVersion: 2
       Hash: a64b8ff703a69f3352c424e9d0bc1c49
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
@@ -1077,12 +948,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: PixelPerfectCamera
-  - hash:
-      serializedVersion: 2
-      Hash: 44b0308ec3e55aa59aef55f647bcba98
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: NetworkObjectHandler
   - hash:
       serializedVersion: 2
       Hash: df819f0bc77c8d047eca1df91bbaa90d
@@ -1119,12 +984,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: RenderObjects
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: SteamVRTeleportManager
   - hash:
       serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
@@ -1181,12 +1040,6 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: HideHandController
-  - hash:
-      serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -1203,12 +1056,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: CinemachineUniversalPixelPerfect
-  - hash:
-      serializedVersion: 2
-      Hash: 34ca364d31510e5ea1e6c7d992a64d1a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: NetworkLoadScene
   - hash:
       serializedVersion: 2
       Hash: 36112b0a16753cab0931521e4de67ef6
@@ -1251,90 +1098,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: A360EditorWindow
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: CreateButtonWindowEditor
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: CustomizeModelWindowEditor
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: SVR360Menu
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: SVRMenu
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: SVRSdkSetup
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: SwapPositionEventEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: TeleportGameObjectEventEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: TransformGameObjectEventEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: VRHandControllerInputEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: VRInteractionEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: VRPlayerLocomotionEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: VRTeleportManagerEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: SVR_Editor.dll
-    namespaceName: SVR
-    className: VRUIInteractionEditor
   - hash:
       serializedVersion: 2
       Hash: e6ae40841db498b6e673877ac45ad208
@@ -1395,12 +1158,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: 
     className: SceneRenderPipeline
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SVR
-    className: NetworkObjectWindow
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1569,7 +1326,277 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 8f9981ae062e1a02c7f0bcdf63e95233
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.HelloVR
+    className: HeadsetDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gvr.Internal
+    className: EditorCameraOriginDict
+  - hash:
+      serializedVersion: 2
+      Hash: 84b31b71fcfc0d02bf4204522ea292b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrVideoPlayerTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 3bb1b4bae6823a4524e793cdb8702970
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.PermissionsDemo
+    className: PermissionsFlowManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5d46189bfca968b9b26fd60c37765c3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: ff7d3100dcac4699fa2b5abb996d38b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Demos
+    className: DemoInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrEditorEmulator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Demos
+    className: DemoInfoPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 6fa741eccd86c0bea38117a65515b359
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrScrollSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Demos
+    className: DemoSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: ed916f285d5522ec5ceb6eccef8d0072
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.VideoDemo
+    className: SwitchVideos
+  - hash:
+      serializedVersion: 2
+      Hash: 11182ae33aeebaa701c6f03cb7f19976
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrKeyboard
+  - hash:
+      serializedVersion: 2
+      Hash: bf3913f0d6c694bf20e1d681c79a4993
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Beta.Demos
+    className: DemoObjectController6DoF
+  - hash:
+      serializedVersion: 2
+      Hash: df14204c8eef5efd8b1a9daa6e0a5862
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrAllEventsTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 10e5e5a6a80d1d5521d8e42ecdcff303
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Beta.Demos
+    className: DemoSeeThroughController
+  - hash:
+      serializedVersion: 2
+      Hash: f694021fab526c14fbd3efebc16d5eba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrTrackedController
+  - hash:
+      serializedVersion: 2
+      Hash: 1f8286dbbba9b39b9120dec32b8944e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrLaserPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 53ce9a4d3b026469b394261470c07be7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gvr.Internal
+    className: InstantPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 245e167b749c6a7e7db841e6b0d3d749
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Beta
+    className: GvrBetaHeadset
+  - hash:
+      serializedVersion: 2
+      Hash: bf3913f0d6c694bf20e1d681c79a4993
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.HelloVR
+    className: ObjectController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrControllerTooltipsSimple
+  - hash:
+      serializedVersion: 2
+      Hash: 1cbb684877139a8fcd5903f27462e898
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrPointerPhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrHeadset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrRecenterOnlyController
+  - hash:
+      serializedVersion: 2
+      Hash: 0aefaa69b3866ee3ae66f07ddb7f44ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.VideoDemo
+    className: VideoPlayerReference
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InstantPreviewHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gvr.Internal
+    className: EmulatorManager
+  - hash:
+      serializedVersion: 2
+      Hash: 77035de2f75c9d7a19377ef6002c9bd8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrReticlePointer
+  - hash:
+      serializedVersion: 2
+      Hash: 89c433fef753b02de32958d7fe54cc06
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrLaserVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 3521ce3e471952c1bdd4cc618dceb5ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrControllerVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.VideoDemo
+    className: ScrubberEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.VideoDemo
+    className: VideoControlsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1a15a086b1c0337a64ec2bee2ef92299
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrPointerGraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: df64ad7cdad89053ed97218d03e92c1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gvr.Internal
+    className: EmulatorConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 0356cdaae5b7070b3af7fac5f6f8d8cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrTooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 12d597f55904a0e1480e1e25a07f583c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.KeyboardDemo
+    className: KeyboardDelegateExample
+  - hash:
+      serializedVersion: 2
+      Hash: f0077b931a26a7eeaf5e245c7ef51ec4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrPointerInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gvr.Internal
+    className: EmulatorClientSocket
+  - hash:
+      serializedVersion: 2
+      Hash: 7a6837fe2e1bc65ba24bcd2a74cc367f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrControllerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 9272257521fa59e2ad14f35e96c918e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.HelloVR
+    className: HelloVRManager
+  - hash:
+      serializedVersion: 2
+      Hash: 01bdf339a887de280d38eeb519dfda0d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrControllerReticleVisual
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GvrXREventsSubscriber
+  - hash:
+      serializedVersion: 2
+      Hash: 719e5a8f63dda20dad1ba86875c22268
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.VideoDemo
+    className: AutoPlayVideo
+  - hash:
+      serializedVersion: 2
+      Hash: 9ef0ed9504edb9d0914e240dee1b7846
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Beta
+    className: GvrBetaControllerVisualMulti
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Start.unity
+  - Assets/Scenes/BitsGaiaStart.unity
   playerPath: C:/Users/irvin/Documents/BitsForGai/BitsForGaia/Build/vrtest.apk
