@@ -965,6 +965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Treasure
       objectReference: {fileID: 0}
+    - target: {fileID: 6903060489600731669, guid: 1096b93b079a7a643a8d33a73e97af14,
+        type: 3}
+      propertyPath: nameScene
+      value: BitsGaiaUrbanH
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1096b93b079a7a643a8d33a73e97af14, type: 3}
 --- !u!1001 &7759329450015961510
