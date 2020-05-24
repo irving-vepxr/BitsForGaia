@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BitsGaiaStart.unity
     guid: 92755825889f7044680c3943665d32ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BitsGaiaUrban.unity
     guid: 5c2940f3a0c79ce4aa714eb521e6b7d4
   - enabled: 1
